@@ -1,0 +1,30 @@
+﻿ul.itemlist
+{ 
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.itemlist li ul
+{ 
+	padding: 0px;
+	margin: 0px;
+}
+ul.itemlist li ul li
+{ 
+	display: inline-table;
+	border: solid 1px blue;
+	margin: 0px 15px;
+}
+.itemlist .itemName
+{
+	width: 135px;
+}
+.itemlist .itemDescription
+{
+	width: 135px;
+}
+.itemlist .itemLoaner
+{
+	width: 135px;
+}
